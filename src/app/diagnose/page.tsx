@@ -14,7 +14,7 @@ import { useInterval } from '@/hooks/useInterval';
 import { ArrowLeft } from 'lucide-react';
 
 type PageType = "prompt" | "recording" | "result";
-const BASE_URL = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://patient-insight.vercel.app";
+const BASE_URL = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://docnote.vercel.app";
 console.log("BASE_URL", BASE_URL)
 
 export default function Diagnose() {
