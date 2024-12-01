@@ -1,10 +1,8 @@
 "use client";
 
 import 'regenerator-runtime/runtime'
-import Image from "next/image";
 import { Box, Button, CircularProgress } from "@mui/material"
 import Link from "next/link";
-import { PatientIcon } from "@/icons/PatientIcon";
 import { MicIcon } from "@/icons/MicIcon";
 import { StopRecordingIcon } from "@/icons/StopRecordingIcon";
 import { use, useEffect, useRef, useState } from "react";
